@@ -588,8 +588,7 @@ def attendance_summary():
         attendance_summary_records=attendance_summary_records
     )
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
     import os
 
 if __name__ == "__main__":
