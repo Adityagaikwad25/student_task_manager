@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, redirect,session
 from db_config import get_db_connection
+import os
 
 #create a flask application 
 app = Flask(__name__)
